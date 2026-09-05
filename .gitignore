@@ -1,0 +1,2 @@
+# Generated log output — keep the directory (via .gitkeep) but not its contents
+logs/*.log
