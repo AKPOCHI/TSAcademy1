@@ -93,6 +93,8 @@ echo "Threshold: ${THRESHOLD}%"
 
 log "Checked '${CHECK_PATH}': usage=${USAGE_PERCENT}%, threshold=${THRESHOLD}%"
 
+
+
 # ---- Compare against threshold ------------------------------------------------
 if [ "${USAGE_PERCENT}" -ge "${THRESHOLD}" ]; then
     echo "Status: WARNING - usage has reached or exceeded the threshold."
