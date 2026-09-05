@@ -173,6 +173,7 @@ else
     fail "disk-check.sh is not executable; skipped validation checks"
 fi
 
+
 # ------------------------------------------------------------------
 section "network-check.sh validation"
 # ------------------------------------------------------------------
